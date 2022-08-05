@@ -5,9 +5,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ master ]
+    branches: [ commport-override ]
   pull_request:
-    branches: [ master ]
+    branches: [ commport-override ]
 
 jobs:
   build:
