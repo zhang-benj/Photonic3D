@@ -336,10 +336,10 @@ githubRelease {
     authorization releaseRepoToken
     token releaseRepoToken // This is your personal access token with Repo permissions
                          // You get this from your user settings > developer settings > Personal Access Tokens
-    //owner "WesGilster" // default is the last part of your group. Eg group: "com.github.breadmoirai" => owner: "breadmoirai"
-    //repo "Photonic3D" // by default this is set to your project name
-	//tagName "cwh-${repoOwner}-${currentCommitHash()}" // by default this is set to "v${project.version}"
-    //targetCommitish "master" // by default this is set to "master"
+    owner "zhang-benj" // default is the last part of your group. Eg group: "com.github.breadmoirai" => owner: "breadmoirai"
+    repo "Photonic3D" // by default this is set to your project name
+	tagName "cwh-${repoOwner}-${currentCommitHash()}" // by default this is set to "v${project.version}"
+    targetCommitish "commport-override" // by default this is set to "master"
     //releaseName "WesGilster" // Release title, by default this is the same as the tagName
     //body "" // by default this is empty
     draft false // by default this is false
