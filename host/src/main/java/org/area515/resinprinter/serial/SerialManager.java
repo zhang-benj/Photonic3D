@@ -316,7 +316,7 @@ public class SerialManager {
 			return new CustomCommPort(AUTO_DETECT_PROJECTOR);
 		}
 		
-		throw new InappropriateDeviceException("CommPort doesn't exist:" + comport);
+		throw new InappropriateDeviceException("CommPort doesn't exist, but fork change successful: " + comport);
 	}
 	
 	public List<SerialCommunicationsPort> getSerialDevices() {
