@@ -1,6 +1,8 @@
 ![Photonic3D](https://raw.githubusercontent.com/jmkao/Creation-Workshop-Host/master/host/resourcesnew/cwh/img/photonic3d-icon-sign-black.png)
 ======================
 
+NOTE: This branch contains the source files for the WesGilster fork, but the release for the area515 stable fork, simply for maintaining a stable separate release
+
 Photonic3D is a control server for DLP resin 3D printers with a web-based user interface. It has been designed to run well on a Raspberry Pi, but is cross-platform and the install distribution will also run on Linux, Windows, and MacOS.
 
 The server is capable of printing a variety of formats, including:
